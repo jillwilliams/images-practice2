@@ -1,3 +1,7 @@
+#clickMe {
+    width: 60px;
+    height: auto;
+}
 #gallery {
     background-image: url("images/blueBackground.jpg");
 }
