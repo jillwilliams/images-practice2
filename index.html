@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Images Work</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=WindSong&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Caveat&family=Creepster&family=Dancing+Script&family=Fuggles&family=Indie+Flower&family=Kalam&family=Montserrat:wght@100&family=Permanent+Marker&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" HREF="./styles.css">
+    <script src="script.js"></script>
+<body>
+    <audio id="song">
+        <source src="wolves.mp3">
+    </audio>
+    <script>
+        window.addEventListener('click',()=>{
+            document.getElementById("song").play();
+        });
+    </script>
+    
+    <div>
+        <table id="intro">
+            <th><img src="images/flower.jpg" id="flower1"></th>
+            <th><p id="wallowa">Wallowa Lake</p></th>
+            <th><img src="images/flower.jpg" id="flower2"></th>
+        </table>
+    </div>
+    <div>
+        <p id="todo">
+            There are many things to do at Wallowa Lake
+        </p>
+    </div>
+    <div>
+        <table id="gallery">
+            <th>
+                <div class="camping">
+                    <img src="images/camping.jpg" id="camping">
+                        <div class="text_container">
+                            <p>Camping</p>
+                        </div>
+                </div>
+            </th>
+            <th>
+                <div class="fishing">
+                    <img src="images/fishing.jpg" id="fishing">
+                        <div class="text_container1">
+                            <p>Fishing</p>
+                        </div>
+                </div>
+            </th>
+            <th>
+                <div class="hiking">
+                    <img src="images/hiking.jpg" id="hiking">
+                        <div class="text_container2">
+                            <p>Hiking</p>
+                        </div>
+                </div>
+            </th>
+            <th>
+                <div class="minigolf">
+                    <img src="images/miniGolf.jpg" id="minigolf">
+                        <div class="text_container3">
+                            <p>Mini-Golf</p>
+                        </div>
+                </div>
+            </th>
+            <th>
+                <div class="goCarts">
+                    <img src="images/goCarts.jpg" id="goCarts">
+                        <div class="text_container4">
+                            <p>Go-Carts</p>
+                        </div>
+                </div>
+            </th>
+        </table>
+    </div>
+    <div>
+
+    <div>
+        <p id="todo">
+            History of Wallowa Lake
+        </p>
+    </div>
+    <div id="history">
+        <p id="historyText">Wallowa Lake is a ribbon lake 1 mile (1.6 km) south of Joseph, Oregon, United States, at an elevation of 4,372 ft (1,333 m). Impounded by high moraines, it was formed by a series of Pleistocene glaciers. On the south end of the lake is a small community made up of vacation homes, lodging, restaurants, as well as other small businesses. Wallowa Lake has been used for recreation since at least 1880. The Wallowa Lake State Park is at the southern tip of the lake.</p>
+    </div>
+    <div>
+        <p id="todo">
+            Photos of Wallowa Lake
+        </p>
+    </div>
+    <div id="history">
+        <table id="intro">
+            <th><img src="images/wallowa1.jpg" id="wallowa1"></th>
+            <th><img src="images/wallowa2.jpg" id="wallowa2"></th>
+            <th><img src="images/wallowa3.jpg" id="wallowa3"></th>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,161 @@
+#gallery {
+    background-image: url("images/blueBackground.jpg");
+}
+
+.camping {
+    margin: 5px;
+    position: relative;
+}
+#camping {
+    width: 20rem;
+    height: auto;
+    /* display: inline-block; */
+}
+.text_container {
+    position: absolute;
+    color: rgb(255,255,255);
+    left: 1.5rem;
+    top: -2rem;
+    margin: 10px 10px;
+    /* background-color: rgb(41,41,41,0.9); */
+    padding: 15px 15px 5px 5px;
+    font-family: 'Shadows Into Light';
+    font-size: 1.5rem;
+}
+.fishing {
+    margin: 5px;
+    position: relative;
+}
+#fishing {
+    width: 15rem;
+    height: auto;
+    /* display: inline-block; */
+}
+.text_container1 {
+    position: absolute;
+    color: green;
+    left: 4.5rem;
+    top: -2rem;
+    margin: 10px 10px;
+    /* background-color: rgb(41,41,41,0.9); */
+    padding: 15px 15px 5px 5px;
+    font-family: 'Shadows Into Light';
+    font-size: 1.5rem;
+}
+.hiking {
+    margin: 5px;
+    position: relative;
+}
+#hiking {
+    width: 20rem;
+    height: auto;
+    /* display: inline-block; */
+}
+.text_container2 {
+    position: absolute;
+    color:blue;
+    left: 14rem;
+    top: -2rem;
+    margin: 10px 10px;
+    /* background-color: rgb(41,41,41,0.9); */
+    padding: 15px 15px 5px 5px;
+    font-family: 'Shadows Into Light';
+    font-size: 1.5rem;
+}
+.minigolf {
+    margin: 5px;
+    position: relative;
+}
+#minigolf {
+    width: 20rem;
+    height: auto;
+    /* display: inline-block; */
+}
+.text_container3 {
+    position: absolute;
+    color: rgb(255,255,255);
+    left: 0.5rem;
+    top: -2rem;
+    margin: 10px 10px;
+    /* background-color: rgb(41,41,41,0.9); */
+    padding: 15px 15px 5px 5px;
+    font-family: 'Shadows Into Light';
+    font-size: 1.5rem;
+}
+.goCarts {
+    margin: 5px;
+    position: relative;
+}
+#goCarts {
+    width: 21rem;
+    height: auto;
+    /* display: inline-block; */
+}
+.text_container4 {
+    position: absolute;
+    color: rgb(255,255,255);
+    left: 0.5rem;
+    top: -2rem;
+    margin: 10px 10px;
+    /* background-color: rgb(41,41,41,0.9); */
+    padding: 15px 15px 5px 5px;
+    font-family: 'Shadows Into Light';
+    font-size: 1.5rem;
+}
+#intro {
+    margin: auto;
+    width: 20rem;
+    
+}
+#flower1 {
+    width: 10rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+#wallowa {
+    font-family: 'Shadows Into Light';
+    font-size: 2rem;
+}
+#flower2 {
+    width: 10rem;
+    margin-left: 2rem;
+}
+#todo {
+    font-family: 'Shadows Into Light';
+    background-color: wheat;
+    text-align: center;
+    font-size: 2rem;
+}
+#history {
+    background-image: url('images/blueBackground.jpg');
+
+}
+#historyText {
+    font-family: 'Shadows Into Light';
+    font-size: 1.8rem;
+    margin: 30px 30px;
+}
+#WallowaPhotos {
+    margin: auto;
+    width: 20rem;
+    background-image: url("images/blueBackground.jpg");
+}
+#wallowa1 {
+    margin-right: 5rem;
+    margin-left: 3.5rem;
+    padding: 1rem;
+    width: 20rem;
+    height: auto;
+}
+#wallowa2 {
+    margin-right: 5rem;
+    margin-right: 3.5rem;
+    width: 20rem;
+    height: auto;
+}
+#wallowa3 {
+    margin-left: 3rem;
+    margin-right: 3.5rem;
+    width: 20rem;
+    height: auto;
+}
